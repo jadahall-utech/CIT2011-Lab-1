@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Profile </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="home">
+        <h1>University of Technology, Jamaica</h1>
+        <h2>Student Profile Page</h2>
+    </header>
+     <nav>
+        <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+     </nav>
+
+      <main>
+        <div class="container"> 
+            <section id="about">
+                <h3>About Me</h3>
+                <img src = "jada.jpeg" alt="Jada Hall"> 
+                <p><span> Name:</span> Jada Hall</p>
+                <p><span> Programme:</span> Computer Science</p>
+                <p><span> Year of Study:</span> Second Year</p>
+                <p><span> Biography:</span> I'm an 18-year-old student who is enthusiastic about programming and one who finds technology to be quite interesting. I have always been intrigued by its ability to practically solve real-world problems. Outside of programming, I enjoy listening to music, singing, and spending quality time with my friends. As I continue my studies, I aim to strengthen my coding skills and gain valuable experience in hopes of contributing greatly to the field of technology.</p>
+            </section>
+
+            <section id="courses">
+                <h3> My Courses</h3>
+                <ul>
+                    <li>CIT2011: Web Programming</li>
+                    <li>PHS2019: Physics for Computer Science</li>
+                    <li>STA2020: Introductory Statistics</li>
+                    <li>COM1024: Academic Literacy for Undergraduates</li>
+                </ul>
+            </section>
+
+            <section id="schedule" >
+                <h3>Weekly Schedule</h3>
+                <table>
+                    <tr>
+                        <th>Day</th>
+                        <th>Time</th>
+                        <th>Course</th>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td>12:00 PM - 1:50 PM</td>
+                        <td>STA2020: Introductory Statistics</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>8:00 AM - 10:50 AM</td>
+                        <td>PHS2019: Physics for Computer Science</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>11:00 AM - 1:50 PM</td>
+                        <td>CIT2011: Web Programming</td>
+                    </tr>
+                    
+                </table>
+            </section>
+
+
+
+                <section id="contact">
+                     <h3> Contact Me</h3>
+                     <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+
+                        <button type="submit">Submit</button>
+                     </form>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2026 Jada Hall. All rights reserved.</p>
+        </footer>
+
+</body>
+</html>
